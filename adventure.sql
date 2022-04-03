@@ -1,4 +1,5 @@
 --results from sql query defined in "input_data_1" will be the "InputDataSet" Dataframe in R
+-- Just testing
 EXECUTE sp_execute_external_script
 @language = N'R',
 @script = N' 
